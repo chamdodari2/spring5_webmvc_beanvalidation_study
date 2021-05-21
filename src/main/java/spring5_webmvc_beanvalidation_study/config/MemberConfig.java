@@ -18,7 +18,7 @@ import spring5_webmvc_beanvalidation_study.controller.VersionPrinter;
 
 
 @Configuration
-@ComponentScan(basePackages = {"spring5_webmvc_study.controller"})  //이게 있어서 엄밀하게 
+@ComponentScan(basePackages = {"spring5_webmvc_beanvalidation_study.controller"})  //이게 있어서 엄밀하게 
 @EnableTransactionManagement
 public class MemberConfig {
 
